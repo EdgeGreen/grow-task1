@@ -14,6 +14,14 @@ Please note, that for terraform configuration you should have a remote state wit
 For both CF and TF tasks please use separate files, do not put all code in one file. You should split your code in a correct way which will be useful and comfortable.
 
 ------------------------------------------------------------------------------------------
+### Intro:
+First of all need to create "Remote_Backend"
+
+Run terraform apply -> Remote_Backend
+
+After run terragrunt apply-all -> ./
+
+------------------------------------------------------------------------------------------
 ### Some Screenshots
 ------------------------------------------------------------------------------------------
 ![](Images/1.PNG)
