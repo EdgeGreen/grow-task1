@@ -1,5 +1,10 @@
-# Object file
-*.o
+# Compiled files
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.lock.info
+backend.tf
 
-# Ada Library Information
-*.ali
+
+# Module directory
+.terraform/
+*.iml
